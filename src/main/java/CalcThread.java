@@ -9,6 +9,6 @@ public class CalcThread implements Runnable {
     @Override
     public void run() {
         int result = data.calc();
-        System.out.println(data.toString() + " result:" + result);
+        System.out.println(String.format("%s result: %7d", data.toString(), result));
     }
 }

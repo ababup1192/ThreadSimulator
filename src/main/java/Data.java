@@ -20,6 +20,6 @@ public class Data {
 
     @Override
     public String toString() {
-        return "id:" + id + ", name:" + name;
+        return String.format("id:%5s name:%15s", id, name);
     }
 }
